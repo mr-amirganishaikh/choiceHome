@@ -15,9 +15,9 @@
         <!-- Header section included -->
         <?php include '_partial/header.php' ?>
     </header>
-
+    
     <main>
-        <div id="temp" style="height: 100vh; width: 100%; background: url(img/sliders/dummy.jpg) center center no-repeat;background-size: cover; margin-bottom: 50vh;"></div>
+        <div class="dummy" style="background: url(https://demo-themelocation.co/wp-mottestate/wp-content/uploads/2017/10/search-bg-img-01.jpg?id=7); height: 75vh;margin-bottom: 100vh;"></div>
     </main>
 
     <footer>

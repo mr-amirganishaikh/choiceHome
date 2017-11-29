@@ -4,3 +4,196 @@
 body {
     font-family: $font-secondary;
 }
+
+header {
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    background: rgba($color-base, 0);
+    @include transition(all 0.35s ease);
+    &.scrollFixed{
+        background-color: $color-base;
+    }
+    #navigation-toggle {
+        display: inline-block;
+        float: right;
+        margin: 3px 0;
+        padding: 5px 0px 5px 5px;
+        color: $color-white;
+        font-size: 1rem;
+        border: 1px solid rgba($color-white, 0);
+        text-transform: uppercase;
+        font-weight: bold;
+        @include xs-up {
+            margin: 3px 15px;
+            padding: 5px 10px;
+            border-color: rgba($color-white, 0.75);
+        }
+        @include lg-up {
+            display: none;
+        }
+        i {
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+    }
+    .logo {
+        width: auto;
+        float: left;
+        @include xs-up{
+            width: 25%;
+        }
+        a {
+            display: inline-block;
+            width: 160px;
+            min-height: 80px;
+            padding: 20px 0;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .navigation {
+        @extend .relative-box;
+        width: auto;
+        @include xs-up {
+            width: 70%;
+        }
+        float: right;
+        min-height: 80px;
+        padding: 20px 0;
+        #main-navigation {
+            display: none;
+            @include lg-up {
+                display: inline-block;
+            }
+            float: left;
+            ul {
+                li {
+                    display: inline-block;
+                    margin: 0 5px;
+                    a {
+                        color: #fff;
+                        display: inline-block;
+                        padding: 10px 15px;
+                        text-transform: uppercase;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        letter-spacing: 1px;
+                        @include transition(all 0.35s linear);
+                        &:hover,
+                        &:focus {
+                            color: $color-main;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        #getQuote {
+            float: right;
+            display: inline-block;
+            color: #fff;
+            margin: 5px 0;
+            padding: 5px 10px 5px 0px;
+            border-right: 1px solid rgba(255, 255, 255, 0.75);
+            text-transform: uppercase;
+            font-size: 1rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            @include transition(all 0.35s linear);
+            @include lg-up {
+                padding: 5px 0 5px 15px;
+                border-left: 1px solid rgba($color-white, 0.75);
+                border-right: 0;
+            }
+            &:hover,
+            &:focus {
+                color: $color-main;
+                text-decoration: none;
+            }
+            i {
+                vertical-align: middle;
+            }
+        }
+    }
+
+}
+
+
+footer {
+    @extend .relative-box;
+    background-color: lighten($color-base, 5%);
+    padding: 30px 0;
+    .footer-brand {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+        @include md-up{
+            width: 30%;
+            margin: 0;
+            text-align: left;
+        }
+        @include lg-up {
+            width: 33.33%;
+        }
+    }
+    .list-social {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        margin: 10px 0;
+        @include md-up{
+            width: 34%;
+            margin: 0;
+        }
+        @include lg-up {
+            width: 33.33%;
+        }
+        text-align: center;
+        a {
+            color: $color-white;
+            font-size: 1.5rem;
+            width: 32px;
+            padding: 2px 0;
+            display: inline-block;
+            @include transition(all 0.35s linear);
+            &:hover,
+            &:focus {
+                color: $color-main;
+                text-decoration: none;
+            }
+        }
+    }
+    .copyrights {
+        display: inline-block;
+        float: right;
+        color: $color-white;
+        text-align: center;
+        padding: 7px 0;
+        width: 100%;
+        margin: 10px 0;
+        @include md-up {
+            width: 36%;
+            margin: 0;
+            text-align: right;
+        }
+        @include lg-up {
+            width: 33.33%;
+        }
+        a {
+            color: $color-white;
+            @include transition(all 0.35s linear);
+            &:hover,
+            &:focus {
+                color: $color-main;
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,8 +1,8 @@
 /* All global and reusable variables */
 
 // Colors
-$color-base: #333333; // Define base or support color for website
-$color-main: #F10000; // Define main color for website
+$color-base: #323031; // Define base or support color for website
+$color-main: #ffc857; // Define main color for website
 $color-special-gray: #E0E0E0; // Third level color
 $color-black: #000000;
 $color-white: #ffffff;
@@ -31,44 +31,15 @@ $color_value in $social-colors {
 }
 
 // Fonts
-/******if using online fonts******/
-/*
-/*$font-primary: 'Oxygen', sans-serif;
+$font-primary: 'Roboto', sans-serif;
 .font-primary {
     font-family: $font-primary !important;
 }
 
-$font-secondary: 'Padauk', sans-serif;
-.font-secondary {
-    font-family: $font-secondary !important;
-}*/
-
-
-
-/******if using offline fonts******/
-
-@font-face {
-	font-family: 'Oxygen';
-	src: 
-		url('../fonts/Oxygen/Oxygen-Regular.ttf') 
-		format('trueType');
-}
-$font-primary: 'Oxygen', sans-serif;
-.font-primary {
-    font-family: $font-primary !important;
-}
-
-@font-face {
-	font-family: 'Padauk';
-	src: 
-		url('../fonts/Padauk/Padauk-Regular.ttf') 
-		format('trueType');
-}
-$font-secondary: 'Padauk', sans-serif;
+$font-secondary: 'Montserrat', sans-serif;
 .font-secondary {
     font-family: $font-secondary !important;
 }
-
 
 .font-awesome {
     font: normal normal normal 14px/1 FontAwesome;

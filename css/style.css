@@ -108,29 +108,11 @@
 .soundcloud-text {
   color: #ff3a00 !important; }
 
-/******if using online fonts******/
-/*
-/*$font-primary: 'Oxygen', sans-serif;
 .font-primary {
-    font-family: $font-primary !important;
-}
+  font-family: "Roboto", sans-serif !important; }
 
-$font-secondary: 'Padauk', sans-serif;
 .font-secondary {
-    font-family: $font-secondary !important;
-}*/
-/******if using offline fonts******/
-@font-face {
-  font-family: 'Oxygen';
-  src: url("../fonts/Oxygen/Oxygen-Regular.ttf") format("trueType"); }
-.font-primary {
-  font-family: "Oxygen", sans-serif !important; }
-
-@font-face {
-  font-family: 'Padauk';
-  src: url("../fonts/Padauk/Padauk-Regular.ttf") format("trueType"); }
-.font-secondary {
-  font-family: "Padauk", sans-serif !important; }
+  font-family: "Montserrat", sans-serif !important; }
 
 .font-awesome {
   font: normal normal normal 14px/1 FontAwesome;
@@ -142,10 +124,10 @@ $font-secondary: 'Padauk', sans-serif;
 /*Responsiveness mixins*/
 /* All global declaration for css should come here */
 html {
-  font-size: 14px; }
+  font-size: 12px; }
   @media (min-width: 768px) {
     html {
-      font-size: 16px; } }
+      font-size: 14px; } }
 
 body {
   font-size: 1rem; }
@@ -156,7 +138,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Oxygen", sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 ::-webkit-scrollbar {
   -webkit-appearance: none;
@@ -175,7 +157,7 @@ h6 {
   border-radius: 12px; }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #333333;
+  background-color: #ffc857;
   cursor: grab; }
 
 ::-webkit-scrollbar-corner {
@@ -253,12 +235,12 @@ h6 {
   -moz-animation-delay: 5.5s;
   animation-delay: 5.5s; }
 
-.relative-box {
+.relative-box, header .navigation, footer {
   position: relative;
   min-height: 1px;
   width: 100%;
   float: left; }
-  .relative-box:after {
+  .relative-box:after, header .navigation:after, footer:after {
     content: '';
     clear: both; }
 
@@ -293,7 +275,7 @@ h6 {
     height: 22px;
     border-style: solid;
     border-width: 2px;
-    border-color: transparent #720000 #720000 transparent;
+    border-color: transparent #d79000 #d79000 transparent;
     -webkit-transform: rotate(40deg);
     -ms-transform: rotate(40deg);
     transform: rotate(40deg);
@@ -321,13 +303,193 @@ h6 {
       width: 17px;
       height: 17px;
       z-index: 0;
-      border: 1.5px solid #333333;
+      border: 1.5px solid #323031;
       border-radius: 1px;
       margin-top: 2px;
       -webkit-transition: .2s;
       transition: .2s; }
 
 body {
-  font-family: "Padauk", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
+
+header {
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+  background: rgba(50, 48, 49, 0);
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -ms-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease; }
+  header.scrollFixed {
+    background-color: #323031; }
+  header #navigation-toggle {
+    display: inline-block;
+    float: right;
+    margin: 3px 0;
+    padding: 5px 0px 5px 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    font-weight: bold; }
+    @media (min-width: 640px) {
+      header #navigation-toggle {
+        margin: 3px 15px;
+        padding: 5px 10px;
+        border-color: rgba(255, 255, 255, 0.75); } }
+    @media (min-width: 1280px) {
+      header #navigation-toggle {
+        display: none; } }
+    header #navigation-toggle i {
+      vertical-align: middle;
+      margin-right: 5px; }
+  header .logo {
+    width: auto;
+    float: left; }
+    @media (min-width: 640px) {
+      header .logo {
+        width: 25%; } }
+    header .logo a {
+      display: inline-block;
+      width: 160px;
+      min-height: 80px;
+      padding: 20px 0; }
+      header .logo a img {
+        width: 100%; }
+  header .navigation {
+    width: auto;
+    float: right;
+    min-height: 80px;
+    padding: 20px 0; }
+    @media (min-width: 640px) {
+      header .navigation {
+        width: 70%; } }
+    header .navigation #main-navigation {
+      display: none;
+      float: left; }
+      @media (min-width: 1280px) {
+        header .navigation #main-navigation {
+          display: inline-block; } }
+      header .navigation #main-navigation ul li {
+        display: inline-block;
+        margin: 0 5px; }
+        header .navigation #main-navigation ul li a {
+          color: #fff;
+          display: inline-block;
+          padding: 10px 15px;
+          text-transform: uppercase;
+          font-size: 1rem;
+          font-weight: bold;
+          letter-spacing: 1px;
+          -webkit-transition: all 0.35s linear;
+          -moz-transition: all 0.35s linear;
+          -ms-transition: all 0.35s linear;
+          -o-transition: all 0.35s linear;
+          transition: all 0.35s linear; }
+          header .navigation #main-navigation ul li a:hover, header .navigation #main-navigation ul li a:focus {
+            color: #ffc857;
+            text-decoration: none; }
+    header .navigation #getQuote {
+      float: right;
+      display: inline-block;
+      color: #fff;
+      margin: 5px 0;
+      padding: 5px 10px 5px 0px;
+      border-right: 1px solid rgba(255, 255, 255, 0.75);
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      -webkit-transition: all 0.35s linear;
+      -moz-transition: all 0.35s linear;
+      -ms-transition: all 0.35s linear;
+      -o-transition: all 0.35s linear;
+      transition: all 0.35s linear; }
+      @media (min-width: 1280px) {
+        header .navigation #getQuote {
+          padding: 5px 0 5px 15px;
+          border-left: 1px solid rgba(255, 255, 255, 0.75);
+          border-right: 0; } }
+      header .navigation #getQuote:hover, header .navigation #getQuote:focus {
+        color: #ffc857;
+        text-decoration: none; }
+      header .navigation #getQuote i {
+        vertical-align: middle; }
+
+footer {
+  background-color: #3f3c3e;
+  padding: 30px 0; }
+  footer .footer-brand {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center; }
+    @media (min-width: 1024px) {
+      footer .footer-brand {
+        width: 30%;
+        margin: 0;
+        text-align: left; } }
+    @media (min-width: 1280px) {
+      footer .footer-brand {
+        width: 33.33%; } }
+  footer .list-social {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center; }
+    @media (min-width: 1024px) {
+      footer .list-social {
+        width: 34%;
+        margin: 0; } }
+    @media (min-width: 1280px) {
+      footer .list-social {
+        width: 33.33%; } }
+    footer .list-social a {
+      color: #ffffff;
+      font-size: 1.5rem;
+      width: 32px;
+      padding: 2px 0;
+      display: inline-block;
+      -webkit-transition: all 0.35s linear;
+      -moz-transition: all 0.35s linear;
+      -ms-transition: all 0.35s linear;
+      -o-transition: all 0.35s linear;
+      transition: all 0.35s linear; }
+      footer .list-social a:hover, footer .list-social a:focus {
+        color: #ffc857;
+        text-decoration: none; }
+  footer .copyrights {
+    display: inline-block;
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 7px 0;
+    width: 100%;
+    margin: 10px 0; }
+    @media (min-width: 1024px) {
+      footer .copyrights {
+        width: 36%;
+        margin: 0;
+        text-align: right; } }
+    @media (min-width: 1280px) {
+      footer .copyrights {
+        width: 33.33%; } }
+    footer .copyrights a {
+      color: #ffffff;
+      -webkit-transition: all 0.35s linear;
+      -moz-transition: all 0.35s linear;
+      -ms-transition: all 0.35s linear;
+      -o-transition: all 0.35s linear;
+      transition: all 0.35s linear; }
+      footer .copyrights a:hover, footer .copyrights a:focus {
+        color: #ffc857;
+        text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
