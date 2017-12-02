@@ -5,7 +5,7 @@
         </a>
     </div>
     <div class="navigation">
-        <a id="navigation-toggle"><i class="material-icons">menu</i> Menu</a>
+        <a id="navigation-toggle" class="closeMenu"><i class="material-icons sortIcon">sort</i><i class="material-icons clearIcon hidden">clear</i> <span class="sortIcon">Menu</span></a>
         <nav id="main-navigation">
             <ul class="list-unstyled">
                 <li class="active"><a href="index.php" title="">Home</a></li>
