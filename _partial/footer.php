@@ -9,6 +9,6 @@
         <li><a href="#" title=""><i class="fa fa-google-plus"></i></a></li>
     </ul>
     <p class="copyrights">
-        &copy; 2017 All rights reserved. Site by <a href="http://www.kreativesanity.com/" title="">Kretive Sanity</a>.
+        &copy; 2017 All rights reserved. Site by <a href="http://www.kreativesanity.com/" title="">Kreative Sanity</a>.
     </p>
 </div>
