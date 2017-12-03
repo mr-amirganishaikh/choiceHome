@@ -778,7 +778,8 @@ footer {
 
 /*Home page testimonials section*/
 #home-testimonial {
-  padding: 50px 0; }
+  padding: 50px 0;
+  overflow: hidden; }
   #home-testimonial .testimonial-bg {
     background-color: #f1f0f0;
     padding: 55px 30px 30px; }

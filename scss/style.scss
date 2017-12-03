@@ -522,6 +522,7 @@ footer {
 
 #home-testimonial {
     padding: 50px 0;
+    overflow: hidden;
     .testimonial-bg{
         background-color: lighten($color-base, 75%);
         padding: 55px 30px 30px;
