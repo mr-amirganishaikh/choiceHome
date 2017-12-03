@@ -84,9 +84,9 @@
                 <div class="container">
                     <h1 class="section-title">Our <strong>Projects</strong></h1>
                     <div class="col-xs-12 col-sm-6">                        
-                        <div class="col-xs-12 col-sm-12 prj-hover">
+                        <div class="col-xs-12 col-sm-12 prj-hover prj-img01">
                             <a href="#">
-                                <img src="img/project-img/img01.jpg" class="img-responsive">
+<!--                                <img src="img/project-img/img01.jpg" class="img-responsive">-->
                                 <div class ="prj-text">
                                     <h5>ARCHITECTURAL DESIGN</h5>
                                     <p>Sed sit amet sapien sit amet odio lobortis ullamcorper quis vel </p>
@@ -95,7 +95,7 @@
                         </div>                        
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="col-xs-12 col-sm-12 prj-hover">
+                        <div class="col-xs-12 col-sm-12 prj-hover prj-img02">
                             <a href="#">
                                 <img src="img/project-img/img02.jpg" class="img-responsive">
                                 <div class ="prj-text">
@@ -106,7 +106,7 @@
                         </div>    
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3" style="margin-bottom:25px;">
-                        <div class="col-xs-12 col-sm-12 prj-hover">
+                        <div class="col-xs-12 col-sm-12 prj-hover prj-img03">
                             <a href="#">
                                 <img src="img/project-img/img03.jpg" class="img-responsive">
                                 <div class ="prj-text">
@@ -117,7 +117,7 @@
                         </div> 
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="col-xs-12 col-sm-12 prj-hover">
+                        <div class="col-xs-12 col-sm-12 prj-hover prj-img04">
                             <a href="#">
                                 <img src="img/project-img/img04.jpg" class="img-responsive">
                                 <div class ="prj-text">
@@ -157,7 +157,9 @@
                                 </div>
 
                                 <div class="item">
-                                    <img src="img/testimonial01.png" alt="Chicago">
+                                    <div class="testi-img">
+                                        <img src="img/testimonial01.png" alt="Chania">
+                                    </div>
                                     <div class="carousel-caption">
                                         <h3>Thomas More</h3>
                                         <h4>R. W. Construction Inc.</h4>
@@ -166,12 +168,14 @@
                                 </div>
 
                               <div class="item">
-                                  <img src="img/testimonial01.png" alt="New York">
-                                  <div class="carousel-caption">
+                                  <div class="testi-img">
+                                        <img src="img/testimonial01.png" alt="Chania">
+                                    </div>
+                                    <div class="carousel-caption">
                                         <h3>Thomas More</h3>
                                         <h4>R. W. Construction Inc.</h4>
                                         <p>StructrePress company has performed in a consistent, demanding and professional manner. They have got my project on time with the competition with a highly skilled, well-organized and experienced team of professional construction managers. Our company is looking forward to hire them again.</p>
-                                  </div>
+                                    </div>
                               </div>
                           </div>
                         </div>

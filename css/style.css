@@ -717,6 +717,24 @@ footer {
     font-family: "Roboto", sans-serif;
     color: #ffb724;
     letter-spacing: 1px; }
+  #home-project .prj-img01 {
+    background: url("../img/project-img/img01.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 69vh; }
+  #home-project .prj-img02 {
+    background: url("../img/project-img/img02.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 69vh; }
+  #home-project .prj-img03 {
+    background: url("../img/project-img/img03.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center; }
+  #home-project .prj-img04 {
+    background: url("../img/project-img/img04.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center; }
   #home-project .prj-hover {
     overflow: hidden;
     padding: 0px; }

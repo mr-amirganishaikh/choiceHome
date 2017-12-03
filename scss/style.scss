@@ -447,13 +447,40 @@ footer {
         position: relative;
     }
     strong {
-            font-family: $font-primary;
-            color: darken($color-main, 10%);
-            letter-spacing: 1px;
-        }    
+        font-family: $font-primary;
+        color: darken($color-main, 10%);
+        letter-spacing: 1px;
+    }    
+    
+    .prj-img01{
+        background: url('../img/project-img/img01.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 69vh;
+        
+    }
+    .prj-img02{
+        background: url('../img/project-img/img02.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 69vh;
+    }
+    .prj-img03{
+        background: url('../img/project-img/img03.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+    }
+    .prj-img04{
+        background: url('../img/project-img/img04.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+    }
     .prj-hover{
         overflow: hidden;
         padding: 0px;
+        
         img{
             width: 100%;
             transform: scale(1);
@@ -487,8 +514,7 @@ footer {
                 color: $color-white;
                 font-size: 0.9rem;
             }
-
-        }
+        }        
     }
 }
 
@@ -555,8 +581,3 @@ footer {
     }    
 }
 
-@mixin xxxs-down{
-    @media (max-width: #{$xxxs - 1px}){
-        @content;
-    }
-}
