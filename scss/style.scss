@@ -448,6 +448,7 @@ footer {
     }
     strong {
             font-family: $font-primary;
+            color: darken($color-main, 10%);
             letter-spacing: 1px;
         }    
     .prj-hover{
