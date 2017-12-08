@@ -152,7 +152,7 @@
                                     <div class="carousel-caption">
                                         <h3>Thomas More</h3>
                                         <h4>R. W. Construction Inc.</h4>
-                                        <p>StructrePress company has performed in a consistent, demanding and professional manner. They have got my project on time with the competition with a highly skilled, well-organized and experienced team of professional construction managers. Our company is looking forward to hire them again.</p>
+                                        <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat.</p>
                                     </div>
                                 </div>
 
@@ -161,9 +161,9 @@
                                         <img src="img/testimonial01.png" alt="Chania">
                                     </div>
                                     <div class="carousel-caption">
-                                        <h3>Thomas More</h3>
-                                        <h4>R. W. Construction Inc.</h4>
-                                        <p>StructrePress company has performed in a consistent, demanding and professional manner. They have got my project on time with the competition with a highly skilled, well-organized and experienced team of professional construction managers. Our company is looking forward to hire them again.</p>
+                                        <h3>John Bravo</h3>
+                                        <h4>JB Constructions Pvt Ltd</h4>
+                                        <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
                                     </div>
                                 </div>
 
@@ -172,9 +172,9 @@
                                         <img src="img/testimonial01.png" alt="Chania">
                                     </div>
                                     <div class="carousel-caption">
-                                        <h3>Thomas More</h3>
-                                        <h4>R. W. Construction Inc.</h4>
-                                        <p>StructrePress company has performed in a consistent, demanding and professional manner. They have got my project on time with the competition with a highly skilled, well-organized and experienced team of professional construction managers. Our company is looking forward to hire them again.</p>
+                                        <h3>Kashif Sayed</h3>
+                                        <h4>Kreative Sanity</h4>
+                                        <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat.</p>
                                     </div>
                               </div>
                           </div>
