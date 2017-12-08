@@ -25,6 +25,16 @@ var fixScrollNav = function (options) {
         $(target).removeClass("scrollFixed");
     }
 };
+function getCurentFileName(){
+    
+}
+var setActive = function(className){
+    var path= window.location.pathname,
+        page = path.substring(path.lastIndexOf("/") + 1).split(".")[0];
+    $("#page_"+page).addClass(className);
+    
+}
+
 
 /* Initiation of function on window scroll */
 $(window).scroll(function () {
@@ -71,5 +81,7 @@ $(document).ready(function () {
         setTimeout(nextBackground, 10000);
         body.css('background-image', backgrounds[0]);
     });
+    
+    setActive("active");
 });
 

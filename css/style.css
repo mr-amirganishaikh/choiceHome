@@ -427,6 +427,8 @@ header {
     header .navigation #main-navigation ul li {
       display: inline-block;
       margin: 0 5px; }
+      header .navigation #main-navigation ul li.active a {
+        color: #ffc857; }
       header .navigation #main-navigation ul li a {
         color: #fff;
         display: inline-block;

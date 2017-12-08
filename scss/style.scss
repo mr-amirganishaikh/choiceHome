@@ -125,6 +125,11 @@ header {
                 li {
                     display: inline-block;
                     margin: 0 5px;
+                    &.active {
+                        a {
+                            color: $color-main;
+                        }
+                    }
                     a {
                         color: #fff;
                         display: inline-block;
@@ -599,6 +604,7 @@ footer {
 
 
 /* breadcrumbs */
+
 #breadcrumb-section {
     @extend .relative-box;
     padding: 120px 0 80px;
@@ -616,7 +622,7 @@ footer {
         top: 0;
         left: 0;
     }
-    .container{
+    .container {
         position: relative;
     }
     .page-title {
