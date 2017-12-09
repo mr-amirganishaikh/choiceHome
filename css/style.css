@@ -636,7 +636,7 @@ footer {
 #home-about {
   padding: 40px 0;
   background-color: #f1f0f0; }
-  #home-about .section-title {
+  #home-about .section-title, #home-about #about-us .what-wedo-wrap h1, #about-us .what-wedo-wrap #home-about h1 {
     font-size: 2rem;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
@@ -653,7 +653,7 @@ footer {
         top: 15px;
         right: 0;
     }*/ }
-    #home-about .section-title strong {
+    #home-about .section-title strong, #home-about #about-us .what-wedo-wrap h1 strong, #about-us .what-wedo-wrap #home-about h1 strong {
       font-family: "Roboto", sans-serif;
       color: #ffb724;
       letter-spacing: 1px; }
@@ -708,7 +708,7 @@ footer {
 /*Home page project section*/
 #home-project {
   padding: 40px 0; }
-  #home-project .section-title {
+  #home-project .section-title, #home-project #about-us .what-wedo-wrap h1, #about-us .what-wedo-wrap #home-project h1 {
     font-size: 2rem;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
@@ -716,10 +716,10 @@ footer {
     margin: 0;
     margin-bottom: 1em;
     position: relative; }
-  #home-project strong {
-    font-family: "Roboto", sans-serif;
-    color: #ffb724;
-    letter-spacing: 1px; }
+    #home-project .section-title strong, #home-project #about-us .what-wedo-wrap h1 strong, #about-us .what-wedo-wrap #home-project h1 strong {
+      font-family: "Roboto", sans-serif;
+      color: #ffb724;
+      letter-spacing: 1px; }
   #home-project .prj-img01 {
     background: url("../img/project-img/img01.jpg") no-repeat;
     background-size: cover;
@@ -755,6 +755,9 @@ footer {
       transform: translate(0px, -15px); }
       #home-project .prj-hover:hover .prj-text h5 {
         color: #ffb724; }
+    @media (max-width: 1023px) {
+      #home-project .prj-hover {
+        margin-bottom: 15px; } }
     #home-project .prj-hover .prj-text {
       position: absolute;
       bottom: 0;
@@ -876,5 +879,188 @@ footer {
       color: #ffffff; }
     #breadcrumb-section .breadcrumbs span {
       color: #ffc857; }
+
+/**********************
+
+About us Page
+
+**********************/
+#about-us {
+  padding: 40px 0 40px; }
+  #about-us .p-lr-none {
+    padding-left: 0px;
+    padding-right: 0px; }
+  #about-us #carousel-aboutUs {
+    width: 80%;
+    margin: 30px auto;
+    position: relative; }
+    #about-us #carousel-aboutUs:before {
+      content: '';
+      border: 3px solid #939393;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      right: 30px;
+      bottom: 30px; }
+    #about-us #carousel-aboutUs .item img {
+      width: 100%; }
+    #about-us #carousel-aboutUs .carousel-control-left, #about-us #carousel-aboutUs .carousel-control-right {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+      padding: 10px;
+      background: #fff;
+      font-weight: bold;
+      cursor: pointer; }
+    #about-us #carousel-aboutUs .carousel-control-right {
+      left: auto;
+      right: 0; }
+  #about-us .about-text h4 {
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif; }
+  #about-us .about-text p {
+    color: #a5a5a5;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.5em; }
+  #about-us .what-wedo-wrap {
+    padding-top: 30px; }
+    #about-us .what-wedo-wrap .section-title, #about-us .what-wedo-wrap h1 {
+      font-size: 2rem;
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+      color: #323031;
+      margin: 0;
+      margin-bottom: 1em;
+      position: relative; }
+    #about-us .what-wedo-wrap strong {
+      font-family: "Roboto", sans-serif;
+      color: #ffb724;
+      letter-spacing: 1px; }
+    #about-us .what-wedo-wrap #Carousel-abt-whatwedo .carousel-inner .item img {
+      width: 100%; }
+    #about-us .what-wedo-wrap #Carousel-abt-whatwedo .carousel-inner .item .abt-what-text h3 {
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.3em;
+      font-weight: 600;
+      color: #000000;
+      margin-bottom: 20px; }
+    #about-us .what-wedo-wrap #Carousel-abt-whatwedo .carousel-inner .item .abt-what-text p {
+      color: #a5a5a5; }
+    #about-us .what-wedo-wrap #Carousel-abt-whatwedo span.carousel-control-left, #about-us .what-wedo-wrap #Carousel-abt-whatwedo span.carousel-control-right {
+      position: absolute;
+      top: -55px;
+      right: 50px;
+      margin: 0 90px;
+      color: #E0E0E0;
+      font-size: 1.3em;
+      cursor: pointer;
+      -webkit-transition: all 0.35s linear;
+      -moz-transition: all 0.35s linear;
+      -ms-transition: all 0.35s linear;
+      -o-transition: all 0.35s linear;
+      transition: all 0.35s linear; }
+      #about-us .what-wedo-wrap #Carousel-abt-whatwedo span.carousel-control-left:hover, #about-us .what-wedo-wrap #Carousel-abt-whatwedo span.carousel-control-right:hover {
+        color: #000000; }
+      @media (max-width: 639px) {
+        #about-us .what-wedo-wrap #Carousel-abt-whatwedo span.carousel-control-left, #about-us .what-wedo-wrap #Carousel-abt-whatwedo span.carousel-control-right {
+          top: -46px;
+          right: 100px;
+          font-size: 1.2em;
+          margin: 0px 17px; } }
+      @media (max-width: 479px) {
+        #about-us .what-wedo-wrap #Carousel-abt-whatwedo span.carousel-control-left, #about-us .what-wedo-wrap #Carousel-abt-whatwedo span.carousel-control-right {
+          position: static;
+          font-size: 1.2em;
+          margin: 0px 15px; } }
+    #about-us .what-wedo-wrap #Carousel-abt-whatwedo span.carousel-control-right {
+      left: auto;
+      right: -76px; }
+      @media (max-width: 639px) {
+        #about-us .what-wedo-wrap #Carousel-abt-whatwedo span.carousel-control-right {
+          right: 0px; } }
+
+/**********************
+
+Contact us Page
+
+**********************/
+#contact-us {
+  padding: 40px 0 40px; }
+  #contact-us .contact-text-wrap h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3em;
+    font-weight: 600; }
+  #contact-us .contact-text-wrap p {
+    color: #a5a5a5;
+    line-height: 1.5em; }
+  #contact-us .contact-details-wrap {
+    padding: 35px 0; }
+    #contact-us .contact-details-wrap .contact-detail-border {
+      border: 1px solid #E0E0E0;
+      padding: 35px 20px;
+      height: 260px; }
+      @media (min-width: 768px) {
+        #contact-us .contact-details-wrap .contact-detail-border {
+          height: 280px; } }
+      #contact-us .contact-details-wrap .contact-detail-border i {
+        font-size: 4em;
+        color: #E0E0E0; }
+      #contact-us .contact-details-wrap .contact-detail-border h4 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.3em;
+        font-weight: 600;
+        margin: 30px 0px;
+        -webkit-transition: all 0.35s linear;
+        -moz-transition: all 0.35s linear;
+        -ms-transition: all 0.35s linear;
+        -o-transition: all 0.35s linear;
+        transition: all 0.35s linear; }
+      #contact-us .contact-details-wrap .contact-detail-border a p {
+        color: #000000; }
+      #contact-us .contact-details-wrap .contact-detail-border:hover h4 {
+        color: #ffb724; }
+  #contact-us .contact-form-wrap {
+    padding: 0px; }
+    #contact-us .contact-form-wrap h3 {
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.3em;
+      font-weight: 600;
+      margin: 20px; }
+    #contact-us .contact-form-wrap form .form-group {
+      margin-bottom: 25px; }
+      #contact-us .contact-form-wrap form .form-group .form-control {
+        box-shadow: none;
+        border: 0px;
+        border-bottom: 1px solid #E0E0E0;
+        border-radius: 0px;
+        color: #a5a5a5; }
+        #contact-us .contact-form-wrap form .form-group .form-control::placeholder {
+          color: #a5a5a5; }
+    #contact-us .contact-form-wrap form .btn-submit {
+      color: #181718;
+      border: 1px solid #181718;
+      border-radius: 0px;
+      background: #ffffff;
+      padding: 10px 40px;
+      margin-left: 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      -webkit-transition: all 0.35s linear;
+      -moz-transition: all 0.35s linear;
+      -ms-transition: all 0.35s linear;
+      -o-transition: all 0.35s linear;
+      transition: all 0.35s linear; }
+      #contact-us .contact-form-wrap form .btn-submit:hover {
+        border-color: #ffb724;
+        color: #ffb724; }
+      #contact-us .contact-form-wrap form .btn-submit i {
+        margin-left: 15px; }
+  #contact-us .map-wrap {
+    padding: 35px 0 0; }
 
 /*# sourceMappingURL=style.css.map */

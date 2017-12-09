@@ -451,12 +451,13 @@ footer {
         margin: 0;
         margin-bottom: 1em;
         position: relative;
+        strong {
+            font-family: $font-primary;
+            color: darken($color-main, 10%);
+            letter-spacing: 1px;
+        }
     }
-    strong {
-        font-family: $font-primary;
-        color: darken($color-main, 10%);
-        letter-spacing: 1px;
-    }
+   
     .prj-img01 {
         background: url('../img/project-img/img01.jpg') no-repeat;
         background-size: cover;
@@ -498,6 +499,9 @@ footer {
                 transform: translate(0px,
                 -15px);
             }
+        }
+        @include md-down {
+            margin-bottom: 15px; 
         }
         .prj-text {
             position: absolute;
@@ -643,5 +647,241 @@ footer {
         span {
             color: $color-main;
         }
+    }
+}
+
+
+/**********************
+
+About us Page
+
+**********************/
+
+#about-us{
+    padding: 40px 0 40px;
+     .p-lr-none{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #carousel-aboutUs {
+        width: 80%;
+        margin: 30px auto;
+        position: relative;
+        &:before {
+            content: '';
+            border: 3px solid #939393;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            right: 30px;
+            bottom: 30px;
+        }
+        .item {
+            img {
+                width: 100%;
+            }
+        }
+        .carousel-control-left {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 2rem;
+            padding: 10px;
+            background: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .carousel-control-right {
+            @extend .carousel-control-left;
+            left: auto;
+            right: 0;
+        }       
+    }    
+    .about-text{  
+        h4{
+            font-weight: 600;
+            font-family: $font-secondary;
+        }
+        p{
+            color: $color-grey-text;
+            margin-bottom: 20px;
+            font-size: 1rem;
+            line-height: 1.5em;
+        }
+    }     
+    .what-wedo-wrap{
+        padding-top: 30px;
+        h1{
+            @extend .section-title;                
+        }
+        .section-title {
+            font-size: 2rem;
+            font-family: $font-secondary;
+            text-transform: uppercase;
+            color: $color-base;
+            margin: 0;
+            margin-bottom: 1em;
+            position: relative;
+        }
+        strong {
+            font-family: $font-primary;
+            color: darken($color-main, 10%);
+            letter-spacing: 1px;
+        }
+        #Carousel-abt-whatwedo{
+            .carousel-inner{
+                .item{
+                    img{
+                        width: 100%;
+                    }
+                    .abt-what-text{
+                        h3{
+                            text-transform: uppercase;
+                            font-family: $font-secondary;
+                            font-size: 1.3em;   
+                            font-weight: 600;
+                            color: $color-black;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            color: $color-grey-text;
+                        }
+                    }
+                }
+            } 
+            span.carousel-control-left{                
+                position: absolute;
+                top: -55px;
+                right: 50px;
+                margin: 0 90px;
+                color: $color-special-gray;
+                font-size: 1.3em;
+                cursor: pointer;
+                @include transition(all 0.35s linear);
+                &:hover{
+                    color: $color-black;
+                }
+                @include xs-down {
+                    top: -46px;
+                    right: 100px;
+                    font-size: 1.2em;
+                    margin: 0px 17px;                    
+                }
+                @include xxs-down {
+                    position: static;
+                    font-size: 1.2em;
+                    margin: 0px 15px; 
+                }                
+            }
+            span.carousel-control-right{ 
+                @extend span.carousel-control-left;
+                left: auto;
+                right: -76px;
+                @include xs-down {
+                    right: 0px;
+                }
+            }       
+        }
+    }   
+}
+
+
+/**********************
+
+Contact us Page
+
+**********************/
+
+#contact-us{
+    padding: 40px 0 40px;
+    .contact-text-wrap{
+        h3{
+            font-family: $font-secondary;
+            font-size: 1.3em; 
+            font-weight: 600;            
+        }
+        p{
+            color: $color-grey-text;
+            line-height: 1.5em;
+        }
+    }
+    .contact-details-wrap{
+        padding: 35px 0;
+        .contact-detail-border{
+            border:1px solid $color-special-gray;
+            padding: 35px 20px;
+            height: 260px;
+            @include sm-up {
+                height: 280px;
+            }
+            i{
+                font-size: 4em;
+                color: $color-special-gray;
+            }
+            h4{
+                font-family: $font-secondary;
+                font-size: 1.3em; 
+                font-weight: 600;
+                margin: 30px 0px;
+                @include transition(all 0.35s linear);
+            }
+            a {
+                p{
+                    color: $color-black;
+                }
+            }           
+            &:hover{
+                h4{
+                    color: darken($color-main, 10%);
+                }
+            }
+        }
+    }
+    .contact-form-wrap{
+        padding: 0px;
+        h3{
+            text-transform: uppercase;
+            font-family: $font-secondary;
+            font-size: 1.3em; 
+            font-weight: 600;
+            margin: 20px;
+        }
+        form{
+            .form-group{
+                margin-bottom: 25px;
+                .form-control{
+                    box-shadow: none;
+                    border: 0px;
+                    border-bottom: 1px solid $color-special-gray;
+                    border-radius: 0px;
+                    color: $color-grey-text;
+                    &::placeholder{
+                         color: $color-grey-text;
+                    }
+                }
+            }
+            .btn-submit{
+                color: darken($color-base, 10%);
+                border: 1px solid darken($color-base, 10%);
+                border-radius: 0px;
+                background: $color-white;
+                padding: 10px 40px;
+                margin-left: 15px;
+                font-weight: bold;
+                text-transform: uppercase;                
+                @include transition(all 0.35s linear);
+                &:hover {
+                    border-color: darken($color-main, 10%);
+                    color: darken($color-main, 10%);
+                }
+                i {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+    .map-wrap{
+        padding: 35px 0 0;
     }
 }
