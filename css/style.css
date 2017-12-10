@@ -983,6 +983,142 @@ About us Page
         #about-us .what-wedo-wrap #Carousel-abt-whatwedo span.carousel-control-right {
           right: 0px; } }
 
+/*************************
+
+Project Details Page
+
+*************************/
+#project-details {
+  padding: 40px 0 40px; }
+  #project-details .prj-details-wrapper {
+    padding: 0px; }
+    #project-details .prj-details-wrapper .prj-details-dark, #project-details .prj-details-wrapper .prj-details-light {
+      padding: 30px 0px; }
+      #project-details .prj-details-wrapper .prj-details-dark .prj-details-info, #project-details .prj-details-wrapper .prj-details-light .prj-details-info {
+        background: #323031;
+        padding: 30px 28px;
+        position: relative;
+        right: 100px;
+        top: 85px; }
+        #project-details .prj-details-wrapper .prj-details-dark .prj-details-info span, #project-details .prj-details-wrapper .prj-details-light .prj-details-info span {
+          display: block;
+          color: #000000;
+          background: #ffb724;
+          padding: 10px 40px;
+          position: absolute;
+          right: -35px;
+          top: -18px; }
+        #project-details .prj-details-wrapper .prj-details-dark .prj-details-info h3, #project-details .prj-details-wrapper .prj-details-light .prj-details-info h3 {
+          text-transform: uppercase;
+          color: #ffffff;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 600;
+          font-size: 2em;
+          margin-bottom: 10px; }
+        #project-details .prj-details-wrapper .prj-details-dark .prj-details-info h4, #project-details .prj-details-wrapper .prj-details-light .prj-details-info h4 {
+          text-transform: uppercase;
+          color: #E0E0E0;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 600;
+          font-size: 1.5em;
+          margin-bottom: 25px; }
+        #project-details .prj-details-wrapper .prj-details-dark .prj-details-info p, #project-details .prj-details-wrapper .prj-details-light .prj-details-info p {
+          color: #a5a5a5;
+          line-height: 1.5em; }
+        #project-details .prj-details-wrapper .prj-details-dark .prj-details-info:after, #project-details .prj-details-wrapper .prj-details-light .prj-details-info:after {
+          content: '';
+          border: 1px solid #000000;
+          border-top: 0px;
+          border-left: 0px;
+          height: 70%;
+          width: 45%;
+          position: absolute;
+          right: -35px;
+          bottom: -35px;
+          z-index: -1; }
+      #project-details .prj-details-wrapper .prj-details-dark .prj-link-knowMore, #project-details .prj-details-wrapper .prj-details-light .prj-link-knowMore {
+        display: inline-block;
+        text-transform: uppercase;
+        color: #181718;
+        border: 1px solid #181718;
+        padding: 10px 15px;
+        margin-top: 165px;
+        font-weight: bold;
+        text-decoration: none;
+        -webkit-transition: all 0.35s linear;
+        -moz-transition: all 0.35s linear;
+        -ms-transition: all 0.35s linear;
+        -o-transition: all 0.35s linear;
+        transition: all 0.35s linear; }
+        #project-details .prj-details-wrapper .prj-details-dark .prj-link-knowMore:hover, #project-details .prj-details-wrapper .prj-details-light .prj-link-knowMore:hover {
+          border-color: #ffb724;
+          color: #ffb724; }
+        #project-details .prj-details-wrapper .prj-details-dark .prj-link-knowMore i, #project-details .prj-details-wrapper .prj-details-light .prj-link-knowMore i {
+          margin-left: 15px; }
+    #project-details .prj-details-wrapper .prj-details-light .prj-details-info {
+      background: #f7f3f3;
+      left: 100px;
+      right: auto; }
+      #project-details .prj-details-wrapper .prj-details-light .prj-details-info span {
+        left: -35px;
+        right: auto; }
+      #project-details .prj-details-wrapper .prj-details-light .prj-details-info h3 {
+        color: #000000; }
+      #project-details .prj-details-wrapper .prj-details-light .prj-details-info h4 {
+        color: #000000; }
+      #project-details .prj-details-wrapper .prj-details-light .prj-details-info:after {
+        border-left: 1px solid #f7f3f3;
+        border-bottom-color: #f7f3f3;
+        border-right: 0px;
+        left: -35px;
+        right: auto; }
+    #project-details .prj-details-wrapper .prj-details-light .prj-link-knowMore {
+      float: right; }
+
+.modal-wrapper .modal-dialog {
+  margin-top: 120px;
+  width: 100%; }
+  .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap .carousel-inner .prj-detail-info h3 {
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    font-weight: 600; }
+  .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap .carousel-inner .prj-detail-info p {
+    color: #a5a5a5;
+    line-height: 1.7em; }
+  .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap .carousel-control-left, .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap #home-about #carousel-homeAbout .carousel-control-right, #home-about #carousel-homeAbout .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap .carousel-control-right, .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap #about-us #carousel-aboutUs .carousel-control-right, #about-us #carousel-aboutUs .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap .carousel-control-right, .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap .carousel-control-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    background-image: url(../img/prj-carousel01.jpg);
+    background-repeat: repeat-x;
+    top: 50%;
+    transform: translateY(-32%);
+    left: 15px;
+    text-decoration: none; }
+    .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap .carousel-control-left span, .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap #home-about #carousel-homeAbout .carousel-control-right span, #home-about #carousel-homeAbout .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap .carousel-control-right span, .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap #about-us #carousel-aboutUs .carousel-control-right span, #about-us #carousel-aboutUs .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap .carousel-control-right span, .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap .carousel-control-right span {
+      text-align: center;
+      width: 260px;
+      color: #000000;
+      height: 116px;
+      display: block;
+      font-size: 1.3em;
+      font-weight: 600;
+      line-height: 116px;
+      text-shadow: none;
+      background: rgba(255, 255, 255, 0.8);
+      -webkit-transition: all 0.35s linear;
+      -moz-transition: all 0.35s linear;
+      -ms-transition: all 0.35s linear;
+      -o-transition: all 0.35s linear;
+      transition: all 0.35s linear; }
+  .modal-wrapper .modal-dialog .modal-content .prj-details-modalwrap .carousel-control-right {
+    background-image: url(../img/prj-carousel02.jpg);
+    left: auto;
+    right: 0px; }
+
 /**********************
 
 Contact us Page

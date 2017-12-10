@@ -786,6 +786,177 @@ About us Page
     }   
 }
 
+/*************************
+
+Project Details Page
+
+*************************/
+
+#project-details{
+    padding: 40px 0 40px;
+    .prj-details-wrapper{
+        padding:0px;
+        .prj-details-dark{
+            padding: 30px 0px;
+            .prj-details-info{
+                background: $color-base;
+//                width: 45%;
+                padding: 30px 28px;
+                position: relative;
+                right: 100px;
+                top: 85px;
+                span{
+                    display: block;
+                    color: $color-black;
+                    background: darken($color-main, 10%);
+                    padding: 10px 40px;
+                    position: absolute;
+                    right: -35px;
+                    top: -18px;
+                }
+                h3{
+                    text-transform: uppercase;
+                    color: $color-white;
+                    font-family: $font-secondary;
+                    font-weight: 600;
+                    font-size: 2em;
+                    margin-bottom: 10px;
+                }
+                h4{
+                    text-transform: uppercase;
+                    color: $color-special-gray;
+                    font-family: $font-secondary;
+                    font-weight: 600;
+                    font-size: 1.5em;
+                    margin-bottom: 25px;
+                }
+                p{
+                    color: $color-grey-text;
+                    line-height: 1.5em;
+                }
+                &:after{
+                    content: '';
+                    border: 1px solid #000000;
+                    border-top: 0px;
+                    border-left: 0px;
+                    height: 70%;
+                    width: 45%;
+                    position: absolute;
+                    right: -35px;
+                    bottom: -35px;  
+                    z-index: -1;
+                }          
+            }           
+            .prj-link-knowMore{
+                display: inline-block;
+                text-transform: uppercase;
+                color: darken($color-base, 10%);
+                border: 1px solid darken($color-base, 10%);
+                padding: 10px 15px;
+                margin-top: 165px;
+                font-weight: bold;
+                text-decoration: none;
+                @include transition(all 0.35s linear);
+                &:hover {
+                    border-color: darken($color-main, 10%);
+                    color: darken($color-main, 10%);
+                }
+                i {
+                    margin-left: 15px;
+                }
+            }
+           
+        }
+        .prj-details-light{
+            @extend .prj-details-dark;
+            .prj-details-info{
+                background: #f7f3f3;
+                left: 100px;
+                right: auto;
+                span{
+                    left: -35px;
+                    right: auto;
+                }
+                 h3{                    
+                    color: $color-black;
+                }
+                h4{
+                    color: $color-black;
+                }
+                &:after{
+                    border-left: 1px solid #f7f3f3;
+                    border-bottom-color: #f7f3f3;
+                    border-right: 0px;
+                    left: -35px;
+                    right: auto;
+                }   
+            }
+            .prj-link-knowMore{
+                float: right;
+            }
+        }
+    }
+}
+
+.modal-wrapper{
+    .modal-dialog{
+        margin-top: 120px;
+        width: 100%;
+        .modal-content{
+            .prj-details-modalwrap{
+                .carousel-inner{
+                    .prj-detail-info{
+                        h3{
+                            text-transform: uppercase;
+                            color: $color-black;
+                            font-family: $font-secondary;
+                            font-size: 1em;
+                            font-weight: 600;
+                        }
+                        p{
+                            color: $color-grey-text;
+                            line-height: 1.7em;
+                        }
+                    }
+                }
+                .carousel-control-left{
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    opacity: 1;
+                    background-image: url(../img/prj-carousel01.jpg);
+                    background-repeat: repeat-x;
+                    top: 50%;
+                    transform: translateY(-32%);
+                    left: 15px;
+                    text-decoration: none;
+                    span{
+                        text-align: center;
+                        width: 260px;
+                        color: $color-black;
+                        height: 116px;
+                        display: block;
+                        font-size: 1.3em;
+                        font-weight: 600;
+                        line-height: 116px;             
+                        text-shadow: none;
+                        background: rgba(255, 255, 255, 0.8);
+                        @include transition(all 0.35s linear);
+                    }   
+                }
+                .carousel-control-right{ 
+                    @extend .carousel-control-left;
+                    background-image: url(../img/prj-carousel02.jpg);
+                    left: auto;
+                    right: 0px;
+               
+                } 
+            }
+        }
+    }
+}
+
+
 
 /**********************
 

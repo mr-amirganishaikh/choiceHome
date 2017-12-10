@@ -70,11 +70,13 @@
                         <h1 class="section-title">WHAT WE <strong>DO</strong></h1>
                         <div id="Carousel-abt-whatwedo" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
+<!--
                             <ol class="carousel-indicators">
                               <li data-target="#Carousel-abt-whatwedo" data-slide-to="0" class="active"></li>
                               <li data-target="#Carousel-abt-whatwedo" data-slide-to="1"></li>
                               <li data-target="#Carousel-abt-whatwedo" data-slide-to="2"></li>
                             </ol>
+-->
 
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner">
