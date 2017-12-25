@@ -40,7 +40,7 @@
                                 <span>Building</span>
                                 <h3>HDIL Premier Residence</h3>
                                 <h4>Hotel</h4>
-                                <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>   
+                                <p>Extending over 7 acres, Premier Residences offers 1 & 2 BHK well-planned apartments with stylish amenities and a lifestyle to match. Connectivity from LBS Marg as well as Kurla railway station, is an added advantage.</p>   
                             </div>
 <!--                            <a class="prj-link-knowMore" href="#myModal" data-toggle="modal">Know More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
@@ -55,7 +55,7 @@
                                 <span>Building</span>
                                 <h3>Kohinoor City Kurla</h3>
                                 <h4>Inn</h4>
-                                <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>
+                                <p>On offer is 9 lakh square feet of office spaces, conveniently located close to the Bandra Kurla Complex a commercial hub and having great connectivity. Office spaces spread 4 towers and housed above the mall make them convenient as well as offer an unparalleled view of the green spaces in Kohinoor City.</p>
                             </div>
 <!--                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
@@ -70,7 +70,7 @@
                                 <span>Building</span>
                                 <h3>Omkar Meridia</h3>
                                 <h4>Rennovation</h4>
-                                <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>
+                                <p>Located at a premier location in Mumbai, Omkar Meridia at BKC Crossing is an investment opportunity like never before.This unique boutique residential building will not only upgrade your lifestyle with the best amenities, but the fact thatits located right next to the BKC Commercial Hub ensures that you cut down long commute and evade agonizing traffic jams</p>
                             </div>
 <!--                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
@@ -85,7 +85,7 @@
                                 <span>Building</span>
                                 <h3>BKC X</h3>
                                 <h4>Center</h4>
-                                <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>
+                                <p>The Bandra Kurla Complex is a planned commercial complex in the city of Mumbai, India. According to MMRDA, the complex is the first of a series of "growth centres" created to "arrest further concentration" of offices and commercial activities in South Mumbai</p>
                             </div>
 <!--                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
@@ -100,7 +100,7 @@
                                 <span>Building</span>
                                 <h3>Pheonix Market</h3>
                                 <h4>Rennovation</h4>
-                                <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>
+                                <p>Designed as a ‘city within a city’, Phoenix Marketcities are architecturally path-breaking and iconic destination assets in the heart of Tier-I cities, each project a mixed use development lead by retail component.</p>
                             </div>
 <!--                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
@@ -115,7 +115,7 @@
                                 <span>Building</span>
                                 <h3>Phoenix Art Guild</h3>
                                 <h4>Center</h4>
-                                <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>
+                                <p>The Phoenix Group is set to take on the challenge of redefining lifestyle in Indian cities. Be it mega retail malls, entertainment complexes, residential buildings, commercial space or hospitality units, the Group is determined to make its presence felt in India.</p>
                             </div>
 <!--                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
@@ -130,7 +130,7 @@
                                 <span>Building</span>
                                 <h3>Phoenix Paragon</h3>
                                 <h4>Rennovation</h4>
-                                <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>
+                                <p>Phoenix Paragon Plaza has a contemporary design and a planned development which includes ample car parking space in the basement, storm water management, integrated monitoring system, duress alarm at sensitive areas and magnificently landscaped gardens throughout the complex.</p>
                             </div>
 <!--                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>

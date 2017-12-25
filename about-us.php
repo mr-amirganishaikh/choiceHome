@@ -49,20 +49,22 @@
                     <div class="col-xs-12 col-sm-6 about-text">
                         <div class="col-xs-12 col-sm-12 p-lr-none">
                             <h4>Our Vision</h4>
-                            <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy and they're kooky mysterious and spooky.</p>
-                            <p>A shadowy flight into the dangerous world of a man who does not exist. Got kind of tired packin' and unpackin town to town and up and down the dial! So join us here each week.</p>
+                            <p>Choice Home is a full-service real estate development company. Our objective is to be a profitable leader in commercial, retail and residential real estate. We will serve our customers' needs and will consistently produce and manage developments of lasting value to the community. </p>
+                            <p>We recognize the need to be flexible, entrepreneurial, and aggressive, both as individuals and as a company. </p>
                         </div>
                         <div class="col-xs-12 col-sm-12 p-lr-none">
                             <h4>Our Mission</h4>
-                            <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy and they're kooky mysterious and spooky.</p>
-                            <p>A shadowy flight into the dangerous world of a man who does not exist. Got kind of tired packin' and unpackin town to town and up and down the dial! So join us here each week.</p>
+                            <p>To provide authentic homes by making a difference in the lives of the people we touch every day.</p>
+                            <p>To help people around the world to get their dream home.</p>
                         </div>
                     </div>  
+<!--
                     <div class="col-xs-12 col-sm-12 about-text">
                         <h4>Our Mission</h4>
                         <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy and they're kooky mysterious and spooky.</p>
-                        <p>A shadowy flight into the dangerous world of a man who does not exist. Got kind of tired packin' and unpackin town to town and up and down the dial! So join us here each week.</p>
+                        <p>A shadowy flight into the dangerous world of a man who does not exist. Got kind of tired packin' and unpackin town to town and up and down the dial! So join us here each week.</p>    
                     </div>
+-->
                     
                     <div class="clearfix"></div>
                     
