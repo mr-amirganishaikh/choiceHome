@@ -86,7 +86,7 @@
                     <div class="col-xs-12 col-sm-6">                        
                         <div class="col-xs-12 col-sm-12 prj-hover prj-img01">
                             <a href="#">
-<!--                                <img src="img/project-img/img01.jpg" class="img-responsive">-->
+                                <img src="img/project-img/img01.jpg" class="img-responsive">
                                 <div class ="prj-text">
                                     <h5>ARCHITECTURAL DESIGN</h5>
                                     <p>Sed sit amet sapien sit amet odio lobortis ullamcorper quis vel </p>

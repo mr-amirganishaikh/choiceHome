@@ -34,61 +34,107 @@
                     <div class = "col-xs-12 col-sm-12 prj-details-wrapper">
                         <div class="col-xs-12 col-sm-12 prj-details-dark">
                             <div class = "col-xs-12 col-sm-7">
-                                <img src = "img/prj01.jpg" class = "img-responsive">
+                                <img src = "img/project-img//hdil-premier.jpg" class = "img-responsive">
                             </div>
                             <div class = "col-xs-12 col-sm-5 prj-details-info">
-                                <span>Hotel</span>
-                                <h3>The Langham</h3>
+                                <span>Building</span>
+                                <h3>HDIL Premier Residence</h3>
                                 <h4>Hotel</h4>
                                 <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>   
                             </div>
-                            <a class="prj-link-knowMore" href="#myModal" data-toggle="modal">Know More <i class="fa fa-long-arrow-right"></i></a>
+<!--                            <a class="prj-link-knowMore" href="#myModal" data-toggle="modal">Know More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
                         
                         <div class="clearfix"></div>
                         
                         <div class="col-xs-12 col-sm-12 prj-details-light">
                             <div class = "col-xs-12 col-sm-7 pull-right">
-                                <img src = "img/prj02.jpg" class = "img-responsive">
+                                <img src = "img/project-img//kohinoor-city.jpg" class = "img-responsive">
                             </div>
                             <div class = "col-xs-12 col-sm-5 prj-details-info">
                                 <span>Building</span>
-                                <h3>French Quarter</h3>
+                                <h3>Kohinoor City Kurla</h3>
                                 <h4>Inn</h4>
                                 <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>
                             </div>
-                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>
+<!--                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
                         
                         <div class="clearfix"></div>
                         
                         <div class="col-xs-12 col-sm-12 prj-details-dark">
                             <div class = "col-xs-12 col-sm-7">
-                                <img src = "img/prj03.jpg" class = "img-responsive">
+                                <img src = "img/project-img/omkar-meridia.jpg" class = "img-responsive">
                             </div>
                             <div class = "col-xs-12 col-sm-5 prj-details-info">
-                                <span>Hotel</span>
-                                <h3>Guadalupe Clinic</h3>
+                                <span>Building</span>
+                                <h3>Omkar Meridia</h3>
                                 <h4>Rennovation</h4>
                                 <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>
                             </div>
-                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>
+<!--                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
                         
                         <div class="clearfix"></div>
                         
                         <div class=" prj-details-light">
                             <div class = "col-xs-12 col-sm-7 pull-right">
-                                <img src = "img/prj04.jpg" class = "img-responsive">
+                                <img src = "img/project-img/bkc.jpg" class = "img-responsive">
                             </div>
                             <div class = "col-xs-12 col-sm-5 prj-details-info">
                                 <span>Building</span>
-                                <h3>Clinical Research</h3>
+                                <h3>BKC X</h3>
                                 <h4>Center</h4>
                                 <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>
                             </div>
-                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>
+<!--                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
+                        
+                        <div class="clearfix"></div>
+                        
+                        <div class="col-xs-12 col-sm-12 prj-details-dark">
+                            <div class = "col-xs-12 col-sm-7">
+                                <img src = "img/project-img/phoneix-market.jpg" class = "img-responsive">
+                            </div>
+                            <div class = "col-xs-12 col-sm-5 prj-details-info">
+                                <span>Building</span>
+                                <h3>Pheonix Market</h3>
+                                <h4>Rennovation</h4>
+                                <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>
+                            </div>
+<!--                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>-->
+                        </div>
+                        
+                        <div class="clearfix"></div>
+                        
+                        <div class=" prj-details-light">
+                            <div class = "col-xs-12 col-sm-7 pull-right">
+                                <img src = "img/project-img/phoneix-art-guild.jpg" class = "img-responsive">
+                            </div>
+                            <div class = "col-xs-12 col-sm-5 prj-details-info">
+                                <span>Building</span>
+                                <h3>Phoenix Art Guild</h3>
+                                <h4>Center</h4>
+                                <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>
+                            </div>
+<!--                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>-->
+                        </div>
+                        
+                        <div class="clearfix"></div>
+                        
+                        <div class="col-xs-12 col-sm-12 prj-details-dark">
+                            <div class = "col-xs-12 col-sm-7">
+                                <img src = "img/project-img/phoneix-paragon.jpg" class = "img-responsive">
+                            </div>
+                            <div class = "col-xs-12 col-sm-5 prj-details-info">
+                                <span>Building</span>
+                                <h3>Phoenix Paragon</h3>
+                                <h4>Rennovation</h4>
+                                <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy</p>
+                            </div>
+<!--                            <a class="prj-link-knowMore" href="#">Know More <i class="fa fa-long-arrow-right"></i></a>-->
+                        </div>
+                        
                     </div>
                 </div>
             </section>
