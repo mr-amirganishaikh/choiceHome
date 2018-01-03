@@ -35,11 +35,15 @@
                         <div id="carousel-aboutUs" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img src="http://grandetest.com/theme/agra-html/images/sliders/img05.jpg" alt="Los Angeles" />
+                                    <img src="img/about-us1.jpg" alt="" />
                                 </div>
 
                                 <div class="item">
-                                    <img src="http://grandetest.com/theme/agra-html/images/sliders/img05.jpg" alt="Los Angeles" />
+                                    <img src="img/about-us2.jpg" alt="" />
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/about-us3.jpg" alt="" />
                                 </div>
                             </div>
                             <i class="carousel-control-left fa fa-angle-left" data-target="#carousel-aboutUs" data-slide="prev"></i>
@@ -68,19 +72,11 @@
                     
                     <div class="clearfix"></div>
                     
-                    <div class="col-xs-12 col-sm-12 what-wedo-wrap">
+                    <!--<div class="col-xs-12 col-sm-12 what-wedo-wrap">
                         <h1 class="section-title">WHAT WE <strong>DO</strong></h1>
                         <div id="Carousel-abt-whatwedo" class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
-<!--
-                            <ol class="carousel-indicators">
-                              <li data-target="#Carousel-abt-whatwedo" data-slide-to="0" class="active"></li>
-                              <li data-target="#Carousel-abt-whatwedo" data-slide-to="1"></li>
-                              <li data-target="#Carousel-abt-whatwedo" data-slide-to="2"></li>
-                            </ol>
--->
 
-                            <!-- Wrapper for slides -->
+
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <div class="col-xs-12 col-sm-4">
@@ -131,14 +127,14 @@
                                 </div>
                             </div>
 
-                            <!-- Left and right controls -->
+
                             
                             <span class="carousel-control-left" data-target="#Carousel-abt-whatwedo" data-slide="prev"><i class="fa fa-long-arrow-left"> </i> PREV</span>
                             
                             <span class="carousel-control-right" data-target="#Carousel-abt-whatwedo" data-slide="next">NEXT <i class="fa fa-long-arrow-right"></i></span>
                         </div>    
                     </div>  
-                </div>
+                </div>-->
             </section>
         </main>
 

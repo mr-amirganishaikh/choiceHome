@@ -58,11 +58,15 @@
                         <div id="carousel-homeAbout" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img src="http://grandetest.com/theme/agra-html/images/sliders/img05.jpg" alt="Los Angeles" />
+                                    <img src="img/about-us1.jpg" alt="Los Angeles" />
                                 </div>
 
                                 <div class="item">
-                                    <img src="http://grandetest.com/theme/agra-html/images/sliders/img05.jpg" alt="Los Angeles" />
+                                    <img src="img/about-us2.jpg" alt="Los Angeles" />
+                                </div>
+                                
+                                <div class="item">
+                                    <img src="img/about-us3.jpg" alt="Los Angeles" />
                                 </div>
                             </div>
                             <i class="carousel-control-left fa fa-angle-left" data-target="#carousel-homeAbout" data-slide="prev"></i>
@@ -71,8 +75,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <h1 class="section-title">Welcome We Are <strong>Choice Home</strong></h1>
-                        <p class="para">Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy and they're kooky mysterious and spooky.</p>
-                        <p class="para">A shadowy flight into the dangerous world of a man who does not exist. Got kind of tired packin' and unpackin town to town and up and down the dial! So join us here each week my friends.</p>
+                        <p class="para">Choice Home is a full-service real estate development company. Our objective is to be a profitable leader in commercial, retail and residential real estate.</p>
                         <a class="link-knowMore" href="about-us.php">Know More <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
@@ -84,45 +87,59 @@
                 <div class="container">
                     <h1 class="section-title">Our <strong>Projects</strong></h1>
                     <div class="col-xs-12 col-sm-6">                        
-                        <div class="col-xs-12 col-sm-12 prj-hover prj-img01">
-                            <a href="#">
-                                <img src="img/project-img/img01.jpg" class="img-responsive">
+                        <div class="col-xs-12 col-sm-12 prj-hover prj-img01" style="height:auto">
+                            <a href="projects.php">
+                                <img src="img/project-img/phoneix-market.jpg" class="img-responsive" style="width:100%;height:100%;">
                                 <div class ="prj-text">
-                                    <h5>ARCHITECTURAL DESIGN</h5>
-                                    <p>Sed sit amet sapien sit amet odio lobortis ullamcorper quis vel </p>
+                                    <h5>PHEONIX MARKET RENNOVATION</h5>
+                                    <p>Designed as a ‘city within a city’.  </p>
                                 </div>
                             </a>
                         </div>                        
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="col-xs-12 col-sm-12 prj-hover prj-img02">
-                            <a href="#">
+                        <!--<div class="col-xs-12 col-sm-12 prj-hover prj-img02">
+                            <a href="projects.php">
                                 <img src="img/project-img/img02.jpg" class="img-responsive">
                                 <div class ="prj-text">
-                                    <h5>Green Building</h5>
-                                    <p>Sed sit amet sapien sit amet odio lobortis ullamcorper quis vel </p>
+                                    <h5>PHEONIX MARKET RENNOVATION</h5>
+                                    <p>Designed as a ‘city within a city’. </p>
                                 </div>
                             </a>
-                        </div>    
+                        </div> -->  
+                        <div class="col-xs-12 col-sm-12 prj-hover prj-img03" style="margin-bottom: 25px;">
+                            <a href="projects.php">
+                                <img src="img/project-img//kohinoor-city.jpg" class="img-responsive">
+                                <div class ="prj-text" style="padding-bottom:10px;">
+                                    <h5 style="font-size:1.1rem">KOHINOOR CITY KURLA INN</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 prj-hover prj-img03">
+                            <a href="projects.php">
+                                <img src="img/project-img/bkc.jpg" class="img-responsive">
+                                <div class ="prj-text" style="padding-bottom:10px;">
+                                    <h5 style="font-size:1.1rem">BKC X CENTER</h5>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3" style="margin-bottom:25px;">
                         <div class="col-xs-12 col-sm-12 prj-hover prj-img03">
-                            <a href="#">
-                                <img src="img/project-img/img03.jpg" class="img-responsive">
-                                <div class ="prj-text">
-                                    <h5>House Renovation</h5>
-                                    <p>Sed sit amet sapien sit amet odio lobortis ullamcorper quis vel </p>
+                            <a href="projects.php">
+                                <img src="img/project-img/phoneix-art-guild.jpg" class="img-responsive">
+                                <div class ="prj-text" style="padding-bottom:10px;">
+                                    <h5 style="font-size:1.1rem">PHOENIX ART GUILD CENTER</h5>
                                 </div>
                             </a>
                         </div> 
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="col-xs-12 col-sm-12 prj-hover prj-img04">
-                            <a href="#">
-                                <img src="img/project-img/img04.jpg" class="img-responsive">
-                                <div class ="prj-text">
-                                    <h5>Laminate Flooring</h5>
-                                    <p>Sed sit amet sapien sit amet odio lobortis ullamcorper quis vel </p>
+                            <a href="projects.php">
+                                <img src="img/project-img/phoneix-paragon.jpg" class="img-responsive">
+                                <div class ="prj-text" style="padding-bottom:10px;">
+                                    <h5 style="font-size:1.1rem">PHOENIX PARAGON RENNOVATION</h5>
                                 </div>
                             </a>
                         </div> 

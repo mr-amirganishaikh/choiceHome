@@ -456,30 +456,28 @@ footer {
             color: darken($color-main, 10%);
             letter-spacing: 1px;
         }
-    }
-   
-    .prj-img01 {
-        background: url('../img/project-img/img01.jpg') no-repeat;
-        background-size: cover;
-        background-position: center center;
-        height: 69vh;
-    }
-    .prj-img02 {
-        background: url('../img/project-img/img02.jpg') no-repeat;
-        background-size: cover;
-        background-position: center center;
-        height: 69vh;
-    }
-    .prj-img03 {
-        background: url('../img/project-img/img03.jpg') no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-    .prj-img04 {
-        background: url('../img/project-img/img04.jpg') no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
+    } //    .prj-img01 {
+    //        background: url('../img/project-img/img01.jpg') no-repeat;
+    //        background-size: cover;
+    //        background-position: center center;
+    //        height: 69vh;
+    //    }
+    //    .prj-img02 {
+    //        background: url('../img/project-img/img02.jpg') no-repeat;
+    //        background-size: cover;
+    //        background-position: center center;
+    //        height: 69vh;
+    //    }
+    //    .prj-img03 {
+    //        background: url('../img/project-img/img03.jpg') no-repeat;
+    //        background-size: cover;
+    //        background-position: center center;
+    //    }
+    //    .prj-img04 {
+    //        background: url('../img/project-img/img04.jpg') no-repeat;
+    //        background-size: cover;
+    //        background-position: center center;
+    //    }
     .prj-hover {
         overflow: hidden;
         padding: 0px;
@@ -501,13 +499,18 @@ footer {
             }
         }
         @include md-down {
-            margin-bottom: 15px; 
+            margin-bottom: 15px;
         }
         .prj-text {
             position: absolute;
             bottom: 0;
             padding: 20px;
             width: 100%;
+            background: -moz-linear-gradient(90deg, $color-base 0, rgba($color-base, 0.5) 33%, rgba($color-base, 0) 100%);
+            background: -webkit-linear-gradient(90deg, $color-base 0, rgba($color-base, 0.5) 33%, rgba($color-base, 0) 100%);
+            background: -o-linear-gradient(90deg, $color-base 0, rgba($color-base, 0.5) 33%, rgba($color-base, 0) 100%);
+            background: -ms-linear-gradient(90deg, $color-base 0, rgba($color-base, 0.5) 33%, rgba($color-base, 0) 100%);
+            background: linear-gradient(90deg, $color-base 0, rgba($color-base, 0.5) 33%, rgba($color-base, 0) 100%);
             @include transition(all 0.35s linear);
             h5 {
                 text-transform: uppercase;
@@ -657,9 +660,9 @@ About us Page
 
 **********************/
 
-#about-us{
+#about-us {
     padding: 40px 0 40px;
-     .p-lr-none{
+    .p-lr-none {
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -696,24 +699,24 @@ About us Page
             @extend .carousel-control-left;
             left: auto;
             right: 0;
-        }       
-    }    
-    .about-text{  
-        h4{
+        }
+    }
+    .about-text {
+        h4 {
             font-weight: 600;
             font-family: $font-secondary;
         }
-        p{
+        p {
             color: $color-grey-text;
             margin-bottom: 20px;
             font-size: 1rem;
             line-height: 1.5em;
         }
-    }     
-    .what-wedo-wrap{
+    }
+    .what-wedo-wrap {
         padding-top: 30px;
-        h1{
-            @extend .section-title;                
+        h1 {
+            @extend .section-title;
         }
         .section-title {
             font-size: 2rem;
@@ -729,28 +732,28 @@ About us Page
             color: darken($color-main, 10%);
             letter-spacing: 1px;
         }
-        #Carousel-abt-whatwedo{
-            .carousel-inner{
-                .item{
-                    img{
+        #Carousel-abt-whatwedo {
+            .carousel-inner {
+                .item {
+                    img {
                         width: 100%;
                     }
-                    .abt-what-text{
-                        h3{
+                    .abt-what-text {
+                        h3 {
                             text-transform: uppercase;
                             font-family: $font-secondary;
-                            font-size: 1.3em;   
+                            font-size: 1.3em;
                             font-weight: 600;
                             color: $color-black;
                             margin-bottom: 20px;
                         }
-                        p{
+                        p {
                             color: $color-grey-text;
                         }
                     }
                 }
-            } 
-            span.carousel-control-left{                
+            }
+            span.carousel-control-left {
                 position: absolute;
                 top: -55px;
                 right: 50px;
@@ -759,31 +762,31 @@ About us Page
                 font-size: 1.3em;
                 cursor: pointer;
                 @include transition(all 0.35s linear);
-                &:hover{
+                &:hover {
                     color: $color-black;
                 }
                 @include xs-down {
                     top: -46px;
                     right: 100px;
                     font-size: 1.2em;
-                    margin: 0px 17px;                    
+                    margin: 0px 17px;
                 }
                 @include xxs-down {
                     position: static;
                     font-size: 1.2em;
-                    margin: 0px 15px; 
-                }                
+                    margin: 0px 15px;
+                }
             }
-            span.carousel-control-right{ 
+            span.carousel-control-right {
                 @extend span.carousel-control-left;
                 left: auto;
                 right: -76px;
                 @include xs-down {
                     right: 0px;
                 }
-            }       
+            }
         }
-    }   
+    }
 }
 
 /*************************
@@ -792,20 +795,22 @@ Project Details Page
 
 *************************/
 
-#project-details{
+#project-details {
     padding: 40px 0 40px;
-    .prj-details-wrapper{
-        padding:0px;
-        .prj-details-dark{
+    .prj-details-wrapper {
+        padding: 0px;
+        .prj-details-dark {
             padding: 30px 0px;
-            .prj-details-info{
-                background: $color-base;
-//                width: 45%;
+            @include sm-up {
+                height: 500px;
+            }
+            .prj-details-info {
+                background: $color-base; //                width: 45%;
                 padding: 30px 28px;
                 position: relative;
                 right: 100px;
                 top: 85px;
-                span{
+                span {
                     display: block;
                     color: $color-black;
                     background: darken($color-main, 10%);
@@ -813,28 +818,40 @@ Project Details Page
                     position: absolute;
                     right: -35px;
                     top: -18px;
+                    @include sm-down {
+                        right: 0px;
+                    }
                 }
-                h3{
+                h3 {
                     text-transform: uppercase;
                     color: $color-white;
                     font-family: $font-secondary;
                     font-weight: 600;
                     font-size: 2em;
                     margin-bottom: 10px;
+                    @include sm-up {
+                        font-size: 1.2em;
+                    }
                 }
-                h4{
+                h4 {
                     text-transform: uppercase;
                     color: $color-special-gray;
                     font-family: $font-secondary;
                     font-weight: 600;
                     font-size: 1.5em;
                     margin-bottom: 25px;
+                    @include sm-up {
+                        font-size: 1em;
+                    }
                 }
-                p{
+                p {
                     color: $color-grey-text;
                     line-height: 1.5em;
+                    @include sm-up {
+                        font-size: 0.9em;
+                    }
                 }
-                &:after{
+                &:after {
                     content: '';
                     border: 1px solid #000000;
                     border-top: 0px;
@@ -843,11 +860,18 @@ Project Details Page
                     width: 45%;
                     position: absolute;
                     right: -35px;
-                    bottom: -35px;  
+                    bottom: -35px;
                     z-index: -1;
-                }          
-            }           
-            .prj-link-knowMore{
+                    @include sm-down {
+                        display: none;
+                    }
+                }
+                @include sm-down {
+                    right: 0px;
+                    top: 27px;
+                }
+            }
+            .prj-link-knowMore {
                 display: inline-block;
                 text-transform: uppercase;
                 color: darken($color-base, 10%);
@@ -865,61 +889,67 @@ Project Details Page
                     margin-left: 15px;
                 }
             }
-           
+
         }
-        .prj-details-light{
+        .prj-details-light {
             @extend .prj-details-dark;
-            .prj-details-info{
+            .prj-details-info {
                 background: #f7f3f3;
                 left: 100px;
                 right: auto;
-                span{
+                span {
                     left: -35px;
                     right: auto;
+                    @include sm-down {
+                        left: 0px;
+                    }
                 }
-                 h3{                    
+                h3 {
                     color: $color-black;
                 }
-                h4{
+                h4 {
                     color: $color-black;
                 }
-                &:after{
+                &:after {
                     border-left: 1px solid #f7f3f3;
                     border-bottom-color: #f7f3f3;
                     border-right: 0px;
                     left: -35px;
                     right: auto;
-                }   
+                }
+                @include sm-down {
+                    left: 0px;
+                }
             }
-            .prj-link-knowMore{
+            .prj-link-knowMore {
                 float: right;
             }
         }
     }
 }
 
-.modal-wrapper{
-    .modal-dialog{
+.modal-wrapper {
+    .modal-dialog {
         margin-top: 120px;
         width: 100%;
-        .modal-content{
-            .prj-details-modalwrap{
-                .carousel-inner{
-                    .prj-detail-info{
-                        h3{
+        .modal-content {
+            .prj-details-modalwrap {
+                .carousel-inner {
+                    .prj-detail-info {
+                        h3 {
                             text-transform: uppercase;
                             color: $color-black;
                             font-family: $font-secondary;
                             font-size: 1em;
                             font-weight: 600;
                         }
-                        p{
+                        p {
                             color: $color-grey-text;
                             line-height: 1.7em;
                         }
                     }
                 }
-                .carousel-control-left{
+                .carousel-control-left {
                     position: absolute;
                     top: 0;
                     bottom: 0;
@@ -930,7 +960,7 @@ Project Details Page
                     transform: translateY(-32%);
                     left: 15px;
                     text-decoration: none;
-                    span{
+                    span {
                         text-align: center;
                         width: 260px;
                         color: $color-black;
@@ -938,19 +968,19 @@ Project Details Page
                         display: block;
                         font-size: 1.3em;
                         font-weight: 600;
-                        line-height: 116px;             
+                        line-height: 116px;
                         text-shadow: none;
                         background: rgba(255, 255, 255, 0.8);
                         @include transition(all 0.35s linear);
-                    }   
+                    }
                 }
-                .carousel-control-right{ 
+                .carousel-control-right {
                     @extend .carousel-control-left;
                     background-image: url(../img/prj-carousel02.jpg);
                     left: auto;
                     right: 0px;
-               
-                } 
+
+                }
             }
         }
     }
@@ -964,75 +994,75 @@ Contact us Page
 
 **********************/
 
-#contact-us{
+#contact-us {
     padding: 40px 0 40px;
-    .contact-text-wrap{
-        h3{
+    .contact-text-wrap {
+        h3 {
             font-family: $font-secondary;
-            font-size: 1.3em; 
-            font-weight: 600;            
+            font-size: 1.3em;
+            font-weight: 600;
         }
-        p{
+        p {
             color: $color-grey-text;
             line-height: 1.5em;
         }
     }
-    .contact-details-wrap{
+    .contact-details-wrap {
         padding: 35px 0;
-        .contact-detail-border{
-            border:1px solid $color-special-gray;
+        .contact-detail-border {
+            border: 1px solid $color-special-gray;
             padding: 35px 20px;
             height: 260px;
             @include sm-up {
                 height: 280px;
             }
-            i{
+            i {
                 font-size: 4em;
                 color: $color-special-gray;
             }
-            h4{
+            h4 {
                 font-family: $font-secondary;
-                font-size: 1.3em; 
+                font-size: 1.3em;
                 font-weight: 600;
                 margin: 30px 0px;
                 @include transition(all 0.35s linear);
             }
             a {
-                p{
+                p {
                     color: $color-black;
                 }
-            }           
-            &:hover{
-                h4{
+            }
+            &:hover {
+                h4 {
                     color: darken($color-main, 10%);
                 }
             }
         }
     }
-    .contact-form-wrap{
+    .contact-form-wrap {
         padding: 0px;
-        h3{
+        h3 {
             text-transform: uppercase;
             font-family: $font-secondary;
-            font-size: 1.3em; 
+            font-size: 1.3em;
             font-weight: 600;
             margin: 20px;
         }
-        form{
-            .form-group{
+        form {
+            .form-group {
                 margin-bottom: 25px;
-                .form-control{
+                .form-control {
                     box-shadow: none;
                     border: 0px;
                     border-bottom: 1px solid $color-special-gray;
                     border-radius: 0px;
                     color: $color-grey-text;
-                    &::placeholder{
-                         color: $color-grey-text;
+                    &::placeholder {
+                        color: $color-grey-text;
                     }
                 }
             }
-            .btn-submit{
+            .btn-submit {
                 color: darken($color-base, 10%);
                 border: 1px solid darken($color-base, 10%);
                 border-radius: 0px;
@@ -1040,7 +1070,7 @@ Contact us Page
                 padding: 10px 40px;
                 margin-left: 15px;
                 font-weight: bold;
-                text-transform: uppercase;                
+                text-transform: uppercase;
                 @include transition(all 0.35s linear);
                 &:hover {
                     border-color: darken($color-main, 10%);
@@ -1052,7 +1082,114 @@ Contact us Page
             }
         }
     }
-    .map-wrap{
+    .map-wrap {
         padding: 35px 0 0;
+    }
+}
+
+/* Gallery Page */
+
+#gallery-page {
+    @extend .relative-box;
+    .gallery-filters {
+        text-align: center;
+        padding: 15px 0;
+        li {
+            a {
+                position: relative;
+                display: inline-block;
+                text-transform: uppercase;
+                font-size: 1rem;
+                font-family: $font-secondary;
+                color: $color-base;
+                font-weight: bold;
+                letter-spacing: 1px;
+                text-decoration: none;
+                margin: 0 10px;
+                padding: 3px;
+                overflow: hidden;
+                @include transition(all 0.3s);
+                &:after {
+                    content: '';
+                    border-bottom: 2px solid $color-main;
+                    position: absolute;
+                    left: -100%;
+                    bottom: 0;
+                    width: 100%;
+                    @include transition(all 0.3s);
+                }
+                &.active,
+                &:hover {
+                    color: $color-main;
+                    &:after {
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+    .gallery-contents {
+        @include sm-up {
+            padding: 30px 0;
+        }
+        li {
+            width: 100%;
+            @include sm-up {
+                width: 50%;
+            }
+            @include md-up {
+                width: 33.33%;
+            }
+            @include lg-up {
+                width: 25%;
+            }
+            padding: 7px;
+            a {
+                min-height: 220px;
+                display: block;
+                position: relative;
+                overflow: hidden;
+                background: #e1e1e1;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                text-decoration: none;
+                cursor: pointer;
+                @include transition(all 0.3s);
+                &:after {
+                    content: attr(data-title);
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    padding-top: 15%;
+                    font-family: $font-primary;
+                    font-size: 1.25rem;
+                    text-align: center;
+                    color: darken($color-white, 3%);
+                    transform: translate(-100%, -100%);
+                    background-color: rgba(0, 0, 0, 0.25);
+                    width: 100%;
+                    height: 100%;
+                    @include transition(all 0.3s);
+                }
+                &:before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    transform: translate(100%, 100%);
+                    background-color: rgba(0, 0, 0, 0.25);
+                    width: 100%;
+                    height: 100%;
+                    @include transition(all 0.3s);
+                }
+                &:hover {
+                    &:after,
+                    &:before {
+                        transform: translate(0, 0);
+                    }
+                }
+            }
+        }
     }
 }

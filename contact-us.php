@@ -33,30 +33,29 @@
                 <div class="container">
                     <div class="col-xs-12 col-sm-12 contact-text-wrap">
                         <h3>Contact Details</h3>
-                        <p>Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. They're creepy and they're kooky mysterious and spooky. A shadowy flight into the dangerous world of a man who does not exist. Got kind of tired packin' and unpackin town to town and up and down the dial! So join us here each week my friends.</p>
                     </div>
                     <div class="col-xs-12 col-sm-12 contact-details-wrap">
                         <div class="col-xs-12 col-sm-4 text-center">
                             <div class="contact-detail-border">
                                 <i class="fa fa-user-o" aria-hidden="true"></i>
                                 <h4>Our Location</h4>
-                                <p>145 First Floor Designer Street<br/>
-                                    Newyork, America -2232</p>
+                                <p>1B-31 First Floor, Phoenix Paragon Plaza, <br/>
+                                    Kurla (west), Mumbai -400072</p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-4 text-center">
                             <div class="contact-detail-border">
                                 <i class="fa fa-mobile" aria-hidden="true"></i>
                                 <h4>Call Us</h4>
-                                <p>222 557 661 22<br/>
-                                223 567 89 57<p>
+                                <p> +91 8108097801<br/>
+                                 +91 8976183034 <p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-4 text-center">
                             <div class="contact-detail-border">
                                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
                                 <h4>E-MAIL Us</h4>
-                                <a href="mailto:someone@example.com"> <p>info@agra.com</p></a>
+                                <a href="mailto:choicehome7@gmail.com"> <p>choicehome7@gmail.com</p></a>
                             </div>
                         </div>
                     </div>

@@ -77,7 +77,7 @@
                         
                         <div class="clearfix"></div>
                         
-                        <div class=" prj-details-light">
+                        <div class="col-xs-12 col-sm-12 prj-details-light">
                             <div class = "col-xs-12 col-sm-7 pull-right">
                                 <img src = "img/project-img/bkc.jpg" class = "img-responsive">
                             </div>
@@ -107,7 +107,7 @@
                         
                         <div class="clearfix"></div>
                         
-                        <div class=" prj-details-light">
+                        <div class="col-xs-12 col-sm-12 prj-details-light">
                             <div class = "col-xs-12 col-sm-7 pull-right">
                                 <img src = "img/project-img/phoneix-art-guild.jpg" class = "img-responsive">
                             </div>
